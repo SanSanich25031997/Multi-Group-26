@@ -27,7 +27,7 @@ def load_url(url, timeout):
 def parse_links():
     links = open('res.txt', encoding='utf8').read().split('\n')
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
         future_to_url = {executor.submit(load_url, url, 60): url for url in links}
         for future in concurrent.futures.as_completed(future_to_url):
             url = future_to_url[future]

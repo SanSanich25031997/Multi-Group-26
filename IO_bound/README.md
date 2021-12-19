@@ -16,7 +16,7 @@
   - Cистемный монитор:
   - ![](https://github.com/HeavyPunk/PythonTask/blob/main/sys_mon_100_proc.jpg)
 
-# Дальше - интереснее. CPU-bound задача!
+# CPU-bound задача
 - Генерация денюжек в одном воркере:
   - ![](https://github.com/HeavyPunk/PythonTask/blob/main/sys_mon_generate_1_proc.png)
 - Генерация в 2 воркерах:

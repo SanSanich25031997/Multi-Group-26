@@ -1,18 +1,18 @@
 
 # Эксперименты с IO-bound задачей  
 - Итак, время синхронной проверки ссылок с Википедии (запускался файл tryexept.py):
-- ![Фотка](https://github.com/HeavyPunk/PythonTask/blob/main/1.PNG)
+- ![Фотка](https://github.com/HeavyPunk/PythonTask/blob/main/sync_call_http.png)
 
 - Время проверки с 5 воркерами:
-- ![](https://github.com/HeavyPunk/PythonTask/blob/main/2.PNG)
+- ![](https://github.com/HeavyPunk/PythonTask/blob/main/async_call_http_5_proc.png)
 
 - Время проверки с 10 воркерами:
-- ![](https://github.com/HeavyPunk/PythonTask/blob/main/3.PNG)
+- ![](https://github.com/HeavyPunk/PythonTask/blob/main/async_call_http_10_proc.png)
   - Системный монитор (скакнул трафик через сетевой интерфейс):
   - ![](https://github.com/HeavyPunk/PythonTask/blob/main/sys_mon_10_proc.png)
 
 - Время проверки с 100 воркерами:
-- ![](https://github.com/HeavyPunk/PythonTask/blob/main/4.PNG)
+- ![](https://github.com/HeavyPunk/PythonTask/blob/main/async_call_http_100_proc.png)
   - Cистемный монитор:
   - ![](https://github.com/HeavyPunk/PythonTask/blob/main/sys_mon_100_proc.jpg)
 
